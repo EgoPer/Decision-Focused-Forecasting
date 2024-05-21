@@ -5,7 +5,7 @@ The data for the experiment (contained in *Data/power_scheduling*) was copied fr
 
 ## Running 
 
-The models are built with PyTorch and cvxpylayers, implementation is in *models.py*. We provide a *requirements.py* file to clarify other dependencies. To try the experiment with diffferent hyperparameters the *hyperparameters.py* file contains a function in which settings may be changed. To run the experiment call *run.py* in which one can define how many replications to run. The file runs the experiment function defined in *experiment_whole_policy_evaluation.py* which contains the whole pipeline as assembled from other files.
+The models are built with PyTorch and cvxpylayers, implementation is in *models.py*. We provide a *requirements.txt* file to clarify other dependencies. To try the experiment with diffferent hyperparameters the *hyperparameters.py* file contains a function in which settings may be changed. To run the experiment call *run.py* in which one can define how many replications to run. The file runs the experiment function defined in *experiment_whole_policy_evaluation.py* which contains the whole pipeline as assembled from other files.
 
 ## Other files
 - *Results/policy/* contains the results of the experiments that we ran including saved models. 
